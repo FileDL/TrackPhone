@@ -10,11 +10,13 @@ const firebaseConfig = {
   measurementId: "G-LDH8WNHL5X"
 };
 
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const database = firebase.database();
 
+// Your existing code for authentication, loading messages, and session handling.
 $(document).ready(function () {
     // Toggle to show registration form
     $("#registerLink").click(function (e) {
